@@ -1,18 +1,14 @@
 package practice.oop.extends
 
-open class Animal {
-    open val image = ""
-    open val food = ""
-    open val habitat = ""
-    open val hunger = ""
+abstract class Animal {
+    abstract val image: String
+    abstract val food: String
+    abstract val habitat: String
+    val hunger = 10;
 
-    open fun makeNoise() {
-        println("The Animal is making a noise")
-    }
+    abstract fun makeNoise()
 
-    open fun eat() {
-        println("The Animal is eating")
-    }
+    abstract fun eat()
 
     open fun roam() {
         println("The Animal is roaming")
@@ -30,7 +26,7 @@ class Hippo : Animal() {
     override val habitat = "water"
 
     override fun makeNoise() {
-       println("Grunt!Grunt!")
+        println("Grunt!Grunt!")
     }
 
     override fun eat() {
@@ -38,13 +34,13 @@ class Hippo : Animal() {
     }
 }
 
-open class Canine: Animal() {
+abstract class Canine : Animal() {
     override fun roam() {
         println("The Canine is roaming")
     }
 }
 
-class Wolf: Canine() {
+class Wolf : Canine() {
     override val image = "wolf.jmg"
     override val food = "meat"
     override val habitat = "forests"
@@ -66,7 +62,7 @@ class Vet {
 
 fun main(args: Array<String>) {
     val animals = arrayOf(Hippo(), Wolf())
-    for(item in animals) {
+    for (item in animals) {
         item.roam()
         item.eat()
     }
