@@ -1,4 +1,4 @@
-package theory.`6_ArraysCollections`
+package theory.syntax.`6_ArraysCollections`
 
 
 /*

@@ -1,4 +1,4 @@
-package theory.`2_Variables`
+package theory.syntax.`2_Variables`
 
 /*
 

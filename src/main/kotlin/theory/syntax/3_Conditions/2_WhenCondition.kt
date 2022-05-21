@@ -1,4 +1,4 @@
-package theory.`3_Conditions`
+package theory.syntax.`3_Conditions`
 
 
 /*

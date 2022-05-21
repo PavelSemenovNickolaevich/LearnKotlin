@@ -1,4 +1,4 @@
-package theory.`8_Nulls`
+package theory.syntax.`8_Nulls`
 
 
 /*
@@ -31,3 +31,4 @@ fun main() {
 
 
 }
+

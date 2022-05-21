@@ -1,4 +1,4 @@
-package theory.`5_Types`
+package theory.syntax.`5_Types`
 
 /*
 

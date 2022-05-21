@@ -1,4 +1,4 @@
-package theory.`4_Loops`
+package theory.syntax.`4_Loops`
 
 
 /*

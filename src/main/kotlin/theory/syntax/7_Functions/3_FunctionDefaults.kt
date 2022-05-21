@@ -1,5 +1,5 @@
 
-package theory.`7_Functions`
+package theory.syntax.`7_Functions`
 
 /*
 

@@ -1,5 +1,5 @@
 // папка (пакет), где будет размещен файл
-package theory.`1_Main`
+package theory.syntax.`1_Main`
 
 
 /*
