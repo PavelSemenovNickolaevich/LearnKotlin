@@ -1,0 +1,20 @@
+Задача “Список людей” (циклы, массивы)
+
+Human:
+
+свойство name – имя – String
+свойство age – возраст – int
+HumanManager
+
+fun calcSummaryAge
+считает общий возраст всех созданных людей
+выводит всех людей и общий возраст
+В main создать 4 человека (Human) и посчитать их общий возраст с помощью HumanManager
+
+Вывод в консоль:
+
+0, Human(name=User1, age=10)
+1, Human(name=User2, age=23)
+2, Human(name=User3, age=65)
+3, Human(name=User4, age=75)
+173
