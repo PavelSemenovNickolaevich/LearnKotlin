@@ -1,4 +1,4 @@
-package theory.`1_Interfaces`
+
 
 
 // простой интерфейс для любой техники
